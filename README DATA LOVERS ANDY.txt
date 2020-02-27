@@ -19,7 +19,8 @@
 Proporcionar información a los usuarios sobre los personajes que han aparecido a lo largo de la serie, se busca brindar información individual y datos generales de cada uno de estos; con la finalidad de apoyar a los creadores de contenido al desarrollo de videos, posts, etc.
 ## 2.Proceso de diseño/problemática y solución
 **25 de febrero;** iniciamos con el desarrollo de ideas y planteándonos la problemática, leímos referente a SCRUM para poder utilizar este marco de trabajo, igual investigamos referente al diseño de las historias de usuario.
-**26 de febrero;** Comenzamos con la tabla SCRUM en la plataforma de Trello, iniciamos con dos historias de usuario y comenzamos con los bocetos a mano.
+**26 de febrero;** Comenzamos con la tabla SCRUM en la plataforma de Trello, iniciamos con dos historias de usuario y comenzamos con los bocetos a mano, dimos inicio al wireframe y solicitamos feedback a potenciales usuarios.
+**27 de febrero;** Se solicitó feedback a dos compañeras.
 ## 3.Investigación UX
 **¿Quiénes son los principales usuarios de producto?**
 Mujeres y hombres jóvenes de 18 a 29 años de edad. El programa va enfocado a mayores de edad o generación millennial.
@@ -40,7 +41,7 @@ Al momento de desarrollar más contenido del programa, antes del inicio de algun
 1.En ambas historias, el usuario debe cumplir con mayoria de edad para acceder a la página
 2.
 ##4.Prototipo de baja fidelidad
-<img src >
+<img src https://github.com/AndyyAg/CDMX009-Data-Lovers/blob/master/images/Boceto%201.jpeg>
 <img src >
 <img src >
 <img src >
@@ -53,15 +54,15 @@ Al momento de desarrollar más contenido del programa, antes del inicio de algun
 ##6.Testeos de usabilidad
 
 ##7.Feedback
-Wireframe: En un futuro poder descargar la información, anexar caja para comentarios, poner colores llamativos. Hacer llamativo el scroll de los personajes (se le hizo pesado imaginar que ahí estaban todos así nomás), colores neón, brillantes, un mensaje chistoso si no cumple la edad para entrar.
+Wireframe: En un futuro poder descargar la información, anexar caja para comentarios, poner colores llamativos. Hacer llamativo el scroll de los personajes (se le hizo pesado imaginar que ahí estaban todos así nomás), colores neón, brillantes, un mensaje chistoso si no cumple la edad para entrar. El espacio donde irá un video puede quedar en segundo plano de prioridad, interfaz debe ser más dinámica, verificar como se va a ordenar o filtrar.
 ##8.Prototipo final
 ##9.Pruebas unitarias
 ##10.Objetivos de aprendizaje
 ### UX
 
-- [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-- [ ] Crear prototipos para obtener _feedback_ e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [X] Diseñar la aplicación pensando y entendiendo al usuario.
+- [X] Crear prototipos para obtener _feedback_ e iterar.
+- [X] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 - [ ] Planear y ejecutar _tests_ de usabilidad.
 
 ### HTML y CSS
@@ -108,3 +109,15 @@ Que la interfaz siga los fundamentos de visual design.
 interfaces y visualizaciones.
 diferencia entre expression y statements.
 identidad gráfica 
+
+
+
+
+
+IMÁGENES PARA LA PÁGINA
+INTERDIMENSIONAL CAQBLE
+https://i.imgflip.com/1mqus2.jpg
+PORTAL
+https://img2.freepng.es/20190101/jwq/kisspng-rick-sanchez-morty-smith-image-portals-in-fiction-portal-rick-and-morty-green-5c2b9b7454a995.9795223015463617163468.jpg
+RICK'S FACE
+https://pngimage.net/wp-content/uploads/2018/06/pickle-rick-face-png.png
