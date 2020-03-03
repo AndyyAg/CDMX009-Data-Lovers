@@ -1,4 +1,5 @@
-import { example } from './data.js';
+import { data } from './data/rickandmorty / rickandmorty.js';
 
-console.log(example);
+console.log(data);
 
+//Se escribirán elementos del DOM

@@ -3,8 +3,8 @@ body{
     background-color: #040404;
 }
 *{
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 /*Diseño header*/
 header{
@@ -80,5 +80,30 @@ ul, ol{
     right: -140px;
     top: 0px;
 }
+/*Diseño contenido*/
+body{
+    background-image: url("https://i.redd.it/5pr2d6fopii31.jpg");
+}
 /*Diseño section Cable interdimensional*/
 /*Diseño footer*/
+
+/*Crear CSS responsive*/
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+
+}
+
+@media 
+  (min-device-width: 800px) 
+  and (max-device-width: 1280px) {
+
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+}
