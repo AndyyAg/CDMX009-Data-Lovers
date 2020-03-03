@@ -115,9 +115,11 @@ identidad gráfica
 
 
 IMÁGENES PARA LA PÁGINA
-INTERDIMENSIONAL CAQBLE
+INTERDIMENSIONAL CABLE
 https://i.imgflip.com/1mqus2.jpg
 PORTAL
 https://img2.freepng.es/20190101/jwq/kisspng-rick-sanchez-morty-smith-image-portals-in-fiction-portal-rick-and-morty-green-5c2b9b7454a995.9795223015463617163468.jpg
 RICK'S FACE
 https://pngimage.net/wp-content/uploads/2018/06/pickle-rick-face-png.png
+BACKGROUND CATS
+https://i.redd.it/5pr2d6fopii31.jpg

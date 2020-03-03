@@ -1,6 +1,7 @@
 /*Diseño de fondo*/
 body{
     background-color: #040404;
+    background-image: url("https://i.redd.it/5pr2d6fopii31.jpg");
 }
 *{
     padding: 0;
@@ -81,9 +82,7 @@ ul, ol{
     top: 0px;
 }
 /*Diseño contenido*/
-body{
-    background-image: url("https://i.redd.it/5pr2d6fopii31.jpg");
-}
+
 /*Diseño section Cable interdimensional*/
 /*Diseño footer*/
 
