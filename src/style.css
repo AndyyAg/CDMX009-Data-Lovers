@@ -3,62 +3,68 @@ body{
     background-color: #040404;
     background-image: url("https://i.redd.it/5pr2d6fopii31.jpg");
 }
-*{
-    padding: 0;
-    margin: 0;
-}
+
 /*Diseño header*/
-header{
+.header{
     color: #ffffff;
+    display: inline-table;
+    width: 100%;
+    height: 130px;
+
 }
 h1{
-    position: absolute;
-    width: 413px;
-    height: 59px;
-    left: 647px;
-    top: 13px;
+    text-align: right;
+    height: 10px;
+    left: 555px;
 
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 72px;
-    line-height: 84px;
 }
 h2{
-    position: absolute;
-    width: 319px;
-    height: 18px;
-    left: 819px;
-    top: 109px;
+    text-align: right;
+    height: 10px;
+    left: 655px;
 
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 28px;
 
     color: #FFFCFC;
 }
-/*Diseño menú*/
+ /*diseño menú*/
 #menu{
     margin: auto;
-    width: 500px;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    width: 1441px;
-    height: 59px;
+    background-color: #8D425D;
+    width: 100%;
+    height: 50px;
     left: -1px;
-    top: 160px;
+    top: 180px;
 }
-ul, ol{
-    list-style: none;
+li {
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
 }
 .nav li a{
-    background-color: #E4D7D4;
+    background-color: #8D425D;
     color: #000000;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 15px 15px;
     display: block;
+
+
+
 }
 .nav li a:hover{
     background-color: #E6C8C6;
@@ -80,29 +86,4 @@ ul, ol{
 .nav li ul li ul{
     right: -140px;
     top: 0px;
-}
-/*Diseño contenido*/
-
-/*Diseño section Cable interdimensional*/
-/*Diseño footer*/
-
-/*Crear CSS responsive*/
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) {
-
-}
-
-@media 
-  (min-device-width: 800px) 
-  and (max-device-width: 1280px) {
-
-}
-
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-
 }
