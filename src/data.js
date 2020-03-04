@@ -13,6 +13,7 @@ export const data = () => {
 };
 
 //Manipulación a través de arreglos y objetos
+
 //Función filtrado
 filterData()
 //Función ordenar
