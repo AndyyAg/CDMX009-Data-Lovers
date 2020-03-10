@@ -1,8 +1,15 @@
-import { data } from './data/rickandmorty / rickandmorty.js';
+// import { data } from './data/rickandmorty / rickandmorty.js';
 
-console.log(data);
+// console.log(data);
 
-//Se escribirán elementos del DOM
-//Crear nodos
+// Se escribirán elementos del DOM
+// Crear nodos
 
-document.querySelector()
+// document.querySelector()
+
+const api = 'https://rickandmortyapi.com/api/';
+fetch(api)
+  .then((response) => { return response.json(); })
+  .then((data) => {
+    console.log(data);
+  });
