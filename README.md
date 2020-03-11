@@ -5,7 +5,7 @@
 * [1.Objetivo del proyecto](#1-Objetivo-del-proyecto)
 * [2.Proceso de diseño/problemática y solución](#2-Proceso-de-diseño-problematica-y-solucion)
 * [3.Investigación UX](#3-Investigacion-UX)
-* [I.Historias de usuario](#I-Historias-de-usuario)
+* [Historias de usuario](#Historias-de-usuario)
 * [4.Prototipo de baja fidelidad](#4-Prototipo-de-baja-fidelidad)
 * [5.Prototipo de alta fidelidad](#5-Prototipo-de-alta-fidelidad)
 * [6.Testeos de usabilidad](#6-Testeos-de-usabilidad)
@@ -36,18 +36,22 @@ El usuario podrá visualizar en su totalidad a los personajes que aparecieron en
 **¿Quiénes son los principales usuarios de producto?**
 Mujeres y hombres jóvenes de 18 a 29 años de edad. El programa va enfocado a mayores de edad o generación millennial.
 Información adquirida de: (https://www.imdb.com/title/tt2861424/ratings)
+
 **¿Cuáles son los objetivos de estos usuarios en relación con el producto?**
 Desde la búsqueda de información referente a todos los personajes que han aparecido a lo largo de la serie, para la creación de más contenido multimedia acorde a la temática del programa; desde el desarrollo de videos con teorías, datos estadísticos, spoilers o curiosidades de personajes, episodios o la linea del tiempo de la serie.
+
 **¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?**
 Imágenes de los personajes, filtros para los datos, la información básica de los personajes.
+
 **¿Cuándo utilizan o utilizarían el producto?**
 Al momento de desarrollar más contenido del programa, antes del inicio de alguna temporada.
 
-### I.Historias de usuario
+### Historias de usuario
 
-1. El usuario visualizará la información con una imagen para diferenciar a los personajes. Terminado al dia 10 de marzo 2020.
+1. El usuario visualizará la información con una imagen para diferenciar a los personajes. _Terminado al dia 10 de marzo 2020._
 2. El usuario filtrará la data bajo sus propios parámetros para facilitar su búsqueda.
-	**Criterios de aceptación**
+
+### Criterios de aceptación
 1. En ambas historias, el usuario debe cumplir con mayoria de edad para acceder a la página, este dato se confirmará por medio de un prompt() para poder corroborar su edad.
 
 ## 4.Prototipo de baja fidelidad
