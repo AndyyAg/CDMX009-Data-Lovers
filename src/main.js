@@ -25,13 +25,13 @@ function traer() {
     .then((data) => {
       const characters = data.results;
       return characters.map((character) => {
-        const li = appendChild('li'),
-          img = appendChild('img'),
-          span = appendChild('span');
+        let li = appendChild('li'),
+         img = appendChild('img'),
+         div = appendChild('div');
         img.src = character.image;
-        span.innerHTML = `${character.name}`;
+        characters.innerHTML = `${character.name}`;
         append(li, img);
-        append(li, span);
+        append(li, div);
         append(ul, li);
       });
     })
