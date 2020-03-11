@@ -7,9 +7,13 @@
 
 // document.querySelector()
 
+const input = document.querySelector('#buscar');
 const api = 'https://rickandmortyapi.com/api/';
-fetch(api)
-  .then((response) => { return response.json(); })
-  .then((data) => {
-    console.log(data);
-  });
+
+function traer() {
+  fetch(api + input.value)
+    .then((response) => response.json())
+    .then((json) => console.log(json));
+}
+
+document.querySelector('#cosa').addEventListener('click', traer);
