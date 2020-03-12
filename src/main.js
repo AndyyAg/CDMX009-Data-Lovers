@@ -1,4 +1,4 @@
-// import { data } from './data/rickandmorty / rickandmorty.js';
+import data from './data/rickandmorty/rickandmorty.js';
 
 // console.log(data);
 
@@ -14,18 +14,19 @@ function appendChild(element) {
 function append(parent, el) {
   return parent.appendChild(el);
 }
-
+// para traer la data desde api
 const ul = document.querySelector('#characters');
 const input = document.querySelector('#buscar');
-const api = 'https://rickandmortyapi.com/api/character/?name=';
+const api = 'https://rickandmortyapi.com/api/character/';
 
-function traer() {
+window.onload = function traer() {
   fetch(api + input.value)
     .then((resp) => resp.json())
     .then((data) => {
+      console.log(data.results)
       const characters = data.results;
       return characters.map((character) => {
-        let li = appendChild('li'),
+       let li = appendChild('li'),
          img = appendChild('img'),
          div = appendChild('div');
         img.src = character.image;
@@ -40,4 +41,19 @@ function traer() {
     });
 }
 
-document.querySelector('#cosa').addEventListener('click', traer);
+function arrayRick() {
+  data.forEach(() => {
+    let li = appendChild('li'),
+    img = appendChild('img'),
+    div = appendChild('div');
+    img.src = character.image;
+    characters.innerHTML = `${character.name}`;
+    append(li, img);
+    append(li, div);
+    append(ul, li);
+  })
+}
+
+document.querySelector('#cosa').addEventListener('click', traer());
+
+// console.log(data.results.forEach(item=> console.log(item.name)));
