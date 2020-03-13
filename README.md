@@ -119,7 +119,6 @@ visualizar y manipular data.
 
 ### Pruebas Unitarias (_testing_)
 - [ ] Testear funciones (funciones puras).
-
 ### Git y GitHub
 - [X] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
 - [X] Utilizar los repositorios de GitHub (`clone` | `fork` | gh-pages).
