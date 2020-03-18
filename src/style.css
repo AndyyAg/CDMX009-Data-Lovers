@@ -42,10 +42,11 @@ h2{
 }
 .busqueda{
   background-color: #ffffff;
+  float: right;
   height: 4vh;
-  width: 15vw;
+  width: 16vw;
   margin-top: 9px;
-  margin-right: 15px;
+  margin-right: 3px;
   border: solid;
   border-radius: 5px;
 
@@ -55,13 +56,15 @@ li {
   border-bottom:1px solid #8D425D;
   overflow: hidden;
   text-align: center;
+  color: #FFFCFC;
+  font-size: 16px;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   position: -webkit-sticky; /* Safari */
-  position: relative;
+  position: sticky;
 
 }
 .nav li a{
@@ -92,6 +95,19 @@ ul {
     right: -140px;
     top: 0px;
 }
+
+/* Button */
+
+button {
+  float: right;
+  margin-top: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQcMqFzZDuTAwuRq080mQgG5nU3zMqUQyohvVZBfyTJClQxCi06);
+  background-size: contain;
+}
+
 
 /*Diseño para la caja de contenido*/
 .flexbox{
