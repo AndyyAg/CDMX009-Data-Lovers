@@ -53,7 +53,7 @@ h2{
   font-size: 16px;
 }
 li {
-  border-bottom:1px solid #8D425D;
+  /*border-bottom:1px solid #8D425D; */
   text-align: center;
   color: #FFFCFC;
   font-size: 16px;
@@ -119,8 +119,10 @@ article{
 }
 
 div.wrap {
+
   background-color: transparent;
   display: flex;
+  margin-top: 5px;
   margin-right: 90px;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -129,6 +131,24 @@ div.wrap {
   overflow-x: hidden;
   overflow-x:auto;
 }
+
+.wrap li {
+  list-style: none;
+  background-color: transparent;
+  font-size: 18px;
+  color: #FFFCFC;
+}
+
+.wrap li img {
+  border: 3px solid #FFFCFC;
+  height: 230px;
+  border-radius: 3px;
+}
+
+.wrap li div {
+  background-color: transparent;
+}
+
 
 /*Diseño para area de Cable interdimensional*/
 .inter{
