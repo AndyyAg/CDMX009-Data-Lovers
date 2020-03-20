@@ -7,31 +7,37 @@ function append(parent, el) {
 
 const contenido = document.querySelector('#characters');
 const input = document.querySelector('#buscar');
-const searchInput = '/?name=';
-const api = 'https://rickandmortyapi.com/api/character/';
+const api = 'https://rickandmortyapi.com/api/character/?name=';
 
 function traer() {
-  fetch(api + searchInput + input.value)
+  fetch(api + input.value)
     .then((resp) => resp.json()) // transforma la data en objeto json
     .then((data) => { // aquí escribimos lo que queremos hacer con esa data
-      const characters = data.results; // esto toma los personajes de la data
-      contenido.innerHTML = ''; // esto limpia el html antes de ejecutar la función
-      return characters.map((character) => { // hace un map de los resultados y ejecuta el código
-        const li = createNode('li'), // estos son los elementos necesarios
-          img = createNode('img');
-        div = createNode('div');
-        charId = createNode('id');
-        img.src = character.image; // aquí busca la imagen, con la fuente específica de la data
+      const characters = data.results;
+      // Se limpia el contenido antes de ejecutar la función
+      contenido.innerHTML = '';
+      return characters.map((character) => {
+        // Creamos nodos para mostrar los elementos
+        const li = createNode('li');
+        const img = createNode('img');
+        const div = createNode('div');
+        const charId = createNode('div');
+        const location = createNode('div');
+        // Buscamos la data necesaria
+        img.src = character.image;
         div.innerHTML = `${character.name}`;
-        charId.innerHTML = `${character.id}`;// hace que se muestre la el nombre en el html
-        append(li, img); // estos son los elementos a adjuntar
+        charId.innerHTML = `${character.id}`;
+        location.innerHTML = `${character.location.name}`;
+        // La adjuntamos para que quede en el mismo sitio
+        append(li, img);
         append(li, div);
         append(li, charId);
+        append(li, location);
         append(contenido, li);
 
         console.log(data);
       });
     });
-};
+}
 
 document.querySelector('#cosa').addEventListener('click', traer);

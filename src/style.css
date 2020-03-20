@@ -133,6 +133,8 @@ div.wrap {
 }
 
 .wrap li {
+  width: auto;
+  margin-bottom: 8px;
   list-style: none;
   background-color: transparent;
   font-size: 18px;
@@ -142,7 +144,7 @@ div.wrap {
 .wrap li img {
   border: 3px solid #FFFCFC;
   height: 230px;
-  border-radius: 3px;
+  border-radius: 40%;
 }
 
 .wrap li div {
