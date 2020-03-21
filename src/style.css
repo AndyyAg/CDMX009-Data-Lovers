@@ -138,14 +138,13 @@ div.wrap {
   list-style: none;
   background-color: transparent;
   font-size: 18px;
-  color: #FFFCFC;
 }
 
 .wrap li:hover{
-  background: url(https://hackaday.com/wp-content/uploads/2018/08/portal.png?w=800);
-  color:  #8D425D;
-  font-weight: bolder;
-  border-radius: 5px;
+  background-color:  #8D425D;
+  border: #ffffff;
+  border-radius: 8px;
+  padding: 3px;
 }
 
 .wrap li img {
@@ -154,8 +153,17 @@ div.wrap {
 }
 
 .wrap li div {
-  background-color: transparent;
+  background-color: transparent; 
+  color: #FFFCFC;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  visibility: hidden;
 }
+
+.wrap li:hover div {
+  visibility: visible;
+}
+
 
 
 /*Diseño para area de Cable interdimensional*/
