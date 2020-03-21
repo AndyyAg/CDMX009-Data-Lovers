@@ -11,6 +11,8 @@ const input = document.querySelector('#buscar');
 
 const api = 'https://rickandmortyapi.com/api/character/?name=';
 
+let arrayCharacter = [];
+// Creamos un espacio para mostrar los personajes
 function createCard(character) {
   // Creamos nodos para mostrar los elementos
   const li = createNode('li');
@@ -33,7 +35,7 @@ function createCard(character) {
   append(li, img);
   append(li, location);
   append(li, gender);
-  append(li, status)
+  append(li, status);
   append(contenido, li);
   return li;
 }
@@ -42,10 +44,10 @@ function traer() {
   fetch(api + input.value)
     .then((resp) => resp.json()) // transforma la data en objeto json
     .then((data) => { // aquí escribimos lo que queremos hacer con esa data
-      const characters = data.results;
+      arrayCharacter = data.results;
       // Se limpia el contenido antes de ejecutar la función
       contenido.innerHTML = '';
-      return characters.map((character) => {
+      return arrayCharacter.map((character) => {
         const li = createCard(character);
         console.log(data);
       });

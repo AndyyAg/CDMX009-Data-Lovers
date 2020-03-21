@@ -126,14 +126,14 @@ div.wrap {
   justify-content: space-around;
   flex-wrap: wrap;
   max-width: auto;
-  height: 40%;
+  height: 50%;
   width: 80%;
   overflow-x: hidden;
-  overflow-x:auto;
 }
 
 .wrap li {
-  width: auto;
+  width: fit-content;
+  height: fit-content;
   margin-bottom: 8px;
   list-style: none;
   background-color: transparent;
@@ -144,7 +144,7 @@ div.wrap {
   background-color:  #8D425D;
   border: #ffffff;
   border-radius: 8px;
-  padding: 3px;
+  padding: 5px;
 }
 
 .wrap li img {
