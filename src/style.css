@@ -13,7 +13,6 @@ header{
 }
 h1{
     text-align: center;
-
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -33,20 +32,21 @@ h2{
 
  /*diseño menú*/
 .menu{
-  margin: auto;
+  margin-top: 7px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #8D425D;
   width: 100%;
-  height: 7vh;
+  height: 8vh;
   position: sticky;
 }
+
 .busqueda{
   background-color: #ffffff;
   float: right;
   height: 4vh;
-  width: 16vw;
+  width: 18vw;
   margin-top: 9px;
-  margin-right: 6px;
+  margin-right: 8px;
   border: solid;
   border-radius: 5px;
 
@@ -69,7 +69,7 @@ ul {
     background-color: #8D425D;
     color: #000000;
     text-decoration: none;
-    padding: 15px 15px;
+    padding: 15px 11px;
     display: block;
 }
 .nav li a:hover{
@@ -119,37 +119,51 @@ article{
 }
 
 div.wrap {
-
   background-color: transparent;
   display: flex;
   margin-top: 5px;
-  margin-right: 90px;
+  margin-left: 120px;
   justify-content: space-around;
   flex-wrap: wrap;
   max-width: auto;
-  height: 130vh;
+  height: 50%;
+  width: 80%;
   overflow-x: hidden;
-  overflow-x:auto;
 }
 
 .wrap li {
-  width: auto;
+  width: fit-content;
+  height: fit-content;
   margin-bottom: 8px;
   list-style: none;
   background-color: transparent;
   font-size: 18px;
-  color: #FFFCFC;
+}
+
+.wrap li:hover{
+  background-color:  #8D425D;
+  border: #ffffff;
+  border-radius: 8px;
+  padding: 5px;
 }
 
 .wrap li img {
-  border: 3px solid #FFFCFC;
-  height: 230px;
-  border-radius: 40%;
+  height: 220px;
+  border-radius: 50%;
 }
 
 .wrap li div {
-  background-color: transparent;
+  background-color: transparent; 
+  color: #FFFCFC;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  visibility: hidden;
 }
+
+.wrap li:hover div {
+  visibility: visible;
+}
+
 
 
 /*Diseño para area de Cable interdimensional*/
