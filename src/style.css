@@ -174,10 +174,10 @@ div.wrap {
 }
 iframe {
 	position: absolute;
-	top: 0;
-    left: 0;
-	width: 560px;
-    height: 315px;
+	top: 1580px;
+  left: 450px;
+	width: 525px;
+  height: 290px;
 }
 /*Diseño pie de página*/
 footer{
