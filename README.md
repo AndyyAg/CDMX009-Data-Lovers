@@ -72,6 +72,8 @@ Adriana nos apoyó con el arreglo de la maqueta para que los datos no se ocultar
 
 ## 8. Prototipo final
 
+<img src="https://github.com/AndyyAg/CDMX009-Data-Lovers/blob/master/images/prototipofinal.png">
+
 ## 9. Pruebas unitarias
 
 Tus _pruebas unitarias_ deben dar una cobertura del 70% de _statements_
