@@ -52,7 +52,7 @@ Al momento de desarrollar más contenido del programa, antes del inicio de algun
 2. El usuario filtrará la data bajo sus propios parámetros para facilitar su búsqueda.
 
 ### Criterios de aceptación
-1. En ambas historias, el usuario debe cumplir con mayoria de edad para acceder a la página, este dato se confirmará por medio de un prompt() para poder corroborar su edad.
+1. Se debe dar click en el parámetro indicado dentro del menú y sus submenús, desde el filtro que desea indicar o el orden de los datos, estos se visualizarán conforme al ID o alfabéticamente solo con el nombre del personaje.
 
 ## 4.Prototipo de baja fidelidad
 
