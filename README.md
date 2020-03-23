@@ -93,7 +93,7 @@ visualizar y manipular data.
 - [x] Diseñar la aplicación pensando y entendiendo al usuario.
 - [x] Crear prototipos para obtener _feedback_ e iterar.
 - [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
-- [] Planear y ejecutar _tests_ de usabilidad.
+- [x] Planear y ejecutar _tests_ de usabilidad.
 
 ### HTML y CSS
 
@@ -146,7 +146,7 @@ visualizar y manipular data.
 - [X] Entender y reconocer por qué es importante el HTML semántico.
 - [X] Identificar y entender tipos de selectores en CSS.
 - [X] Entender como funciona `flexbox` en CSS.
-- [X] Construir tu aplicación respetando el diseño planeado (maquetación).
+- [ ] Construir tu aplicación respetando el diseño planeado (maquetación).
 
 ### DOM
 
@@ -156,7 +156,7 @@ visualizar y manipular data.
 
 ### Javascript
 
-- [X] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
+- [ ] Manipular arrays (`filter` | `map` | `sort` | `reduce`).
 - [ ] Manipular objects (key | value).
 - [X] Entender el uso de condicionales (`if-else` | `switch`).
 - [X] Entender el uso de bucles (`for` | `forEach`).
