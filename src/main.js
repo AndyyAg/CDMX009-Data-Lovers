@@ -54,4 +54,4 @@ function traer() {
     });
 }
 window.onload = traer();
-document.querySelector('#cosa').addEventListener('click', traer);
+document.querySelector('#search').addEventListener('click', traer);
